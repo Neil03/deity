@@ -1,0 +1,13 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: eureka-registry
+eureka:
+  instance:
+    hostname: echidna-eureka-registry
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:9999/eureka/
