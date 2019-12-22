@@ -9,14 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.deity.echidna</groupId>
-    <artifactId>echidna</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
-    <name>echidna</name>
-    <description>use eureka as registry of spring cloud and there is only one eureka</description>
-    <modules>
-        <module>eureka-registry</module>
-    </modules>
+    <groupId>org.deity.gorgons</groupId>
+    <artifactId>gorgons</artifactId>
 
     <dependencies>
         <!--eureka服务端-->
@@ -30,4 +24,5 @@
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
     </dependencies>
+
 </project>

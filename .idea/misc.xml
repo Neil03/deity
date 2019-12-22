@@ -7,6 +7,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/echidna/eureka-registry-single/pom.xml" />
         <option value="$PROJECT_DIR$/echidna/eureka-registry/pom.xml" />
+        <option value="$PROJECT_DIR$/echidna/echidna-productor/pom.xml" />
+        <option value="$PROJECT_DIR$/echidna/echidna-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/gorgons/gorgons-registry-black/pom.xml" />
       </list>
     </option>
   </component>

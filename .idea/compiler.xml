@@ -6,15 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="gorgons" />
         <module name="eureka-registry" />
         <module name="echidna" />
+        <module name="gorgons-registry-black" />
+        <module name="echidna-productor" />
+        <module name="echidna-consumer" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="echidna" options="-parameters" />
-      <module name="eureka-registry" options="-parameters" />
+      <module name="echidna" options="" />
+      <module name="echidna-consumer" options="" />
+      <module name="echidna-productor" options="" />
+      <module name="eureka-registry" options="" />
+      <module name="gorgons" options="" />
+      <module name="gorgons-registry-black" options="-parameters" />
     </option>
   </component>
 </project>
